@@ -79,7 +79,6 @@ func (l *LoggingService) loopWrite() {
 			l.lock.Unlock()
 			return
 		case <-notify:
-			fmt.Println("notify:", len(l.buffer), time.Now())
 			l.lock.Lock()
 			if len(l.buffer) <= 0 {
 				l.lock.Unlock()
@@ -98,7 +97,7 @@ func (l *LoggingService) Write(p [][]byte) (n int, err error) {
 		l.logger.Error(err)
 		return 0, err
 	}
-	l.logger.Debugf("-> write log:", len(p))
+	l.logger.Debugf("-> write log ", len(p))
 	return len(p) - 1, nil
 }
 
