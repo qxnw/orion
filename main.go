@@ -10,6 +10,6 @@ func main() {
 		hydra.WithServerTypes("api-rpc"),
 		hydra.WithAutoCreateConf(),
 		hydra.WithDebug())
-	binding(app)
+	bind(app)
 	app.Start()
 }

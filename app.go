@@ -16,8 +16,8 @@ type AppConf struct {
 	Names []string `json:"dbs" valid:"ascii,required"`
 }
 
-//binding 绑定应用程序的全局变量, 根据配置的日志数据库,创建日志保存对象,注册日志服务
-func binding(r component.IComponentRegistry) {
+//bind 绑定应用程序的全局变量, 根据配置的日志数据库,创建日志保存对象,注册日志服务
+func bind(r component.IComponentRegistry) {
 	r.Initializing(func(c component.IContainer) error {
 		var config AppConf
 		if err := c.GetAppConf(&config); err != nil {
@@ -28,7 +28,7 @@ func binding(r component.IComponentRegistry) {
 			return err
 		}
 		if len(config.Names)==0{
-			err=fmt.Errorf("未配置日志名称")
+			err:=fmt.Errorf("未配置日志名称")
 			return err
 		}
 		for _, name := range config.Names {
