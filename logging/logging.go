@@ -30,7 +30,7 @@ func NewLoggingService(client *es.Client, c *elastic.Conf) (r *LoggingService, e
 		config:     c,
 		logger:     logger.GetSession("orion.logging", logger.CreateSession()),
 		bufferChan: make(chan []byte, 100000),
-		buffer:     make([][]byte, 0, 100000),
+		buffer:     make([][]byte, 0, 1000),
 		closeCh:    make(chan struct{}),
 	}
 	if r.timer, err = NewTimer(c.Cron); err != nil {
@@ -105,7 +105,6 @@ func (l *LoggingService) Write(p [][]byte) (n int, err error) {
 //Close 关闭当前日志组件
 func (l *LoggingService) Close() error {
 	if l.timer != nil {
-		fmt.Println("close.timer")
 		l.timer.Close()
 	}
 	close(l.closeCh)
