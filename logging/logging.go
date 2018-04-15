@@ -3,9 +3,7 @@ package logging
 import (
 	"bytes"
 	"encoding/json"
-	"fmt"
 	"sync"
-	"time"
 
 	"github.com/qxnw/lib4go/logger"
 	"github.com/qxnw/orion/elastic"
