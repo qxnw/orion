@@ -4,6 +4,7 @@ import (
 	"context"
 	"fmt"
 	"time"
+	"unicode/utf8"
 
 	"github.com/asaskevich/govalidator"
 	"github.com/qxnw/hydra/component"
@@ -65,32 +66,35 @@ func GetClient(s component.IContainer, chConf conf.IConf) (c *elastic.Client, er
 }
 
 //BenchAddData 添加数据到elastic
-func BenchAddData(client *elastic.Client, typeName string, index string, timeout int, datas [][]byte) (err error) {
+func BenchAddData(client *elastic.Client, typeName string, index string, timeout int, datas [][]byte) (n int, err error) {
 	if timeout == 0 {
 		timeout = 30
 	}
 	bulkRequest := client.Bulk().Index(index).Type(typeName)
 	for _, item := range datas {
+
 		logid := utility.GetGUID()
-		indexReq := elastic.NewBulkIndexRequest().Index(index).Type(typeName).Id(logid).Doc(string(item))
+		data := string(item)
+		n += utf8.RuneCount(item)
+		indexReq := elastic.NewBulkIndexRequest().Index(index).Type(typeName).Id(logid).Doc(data)
 		bulkRequest = bulkRequest.Add(indexReq)
 	}
 
 	if bulkRequest.NumberOfActions() != len(datas) {
 		err = fmt.Errorf("添加数据与生成的bulk数据条数不匹配，数据 %d 条,bulk %d 条", len(datas), bulkRequest.NumberOfActions())
-		return err
+		return 0, err
 	}
 
 	bulkResponse, err := bulkRequest.Do(context.TODO())
 	if err != nil {
 		err = fmt.Errorf("添加bulk数据发生错误：%v", err)
-		return err
+		return 0, err
 	}
 	if bulkResponse == nil {
 		err = fmt.Errorf("bulk返回值bulkResponse为nil")
-		return err
+		return 0, err
 	}
-	return
+	return n, nil
 }
 
 //AddData 添加数据到elastic

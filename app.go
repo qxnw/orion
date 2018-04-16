@@ -6,6 +6,7 @@ import (
 	"github.com/asaskevich/govalidator"
 	"github.com/qxnw/hydra/component"
 	"github.com/qxnw/hydra/conf"
+	"github.com/qxnw/lib4go/logger"
 	"github.com/qxnw/orion/elastic"
 	"github.com/qxnw/orion/logging"
 	"github.com/qxnw/orion/services/log"
@@ -27,8 +28,8 @@ func bind(r component.IComponentRegistry) {
 			err = fmt.Errorf("app 配置文件有误:%v", err)
 			return err
 		}
-		if len(config.Names)==0{
-			err:=fmt.Errorf("未配置日志名称")
+		if len(config.Names) == 0 {
+			err := fmt.Errorf("未配置日志名称")
 			return err
 		}
 		for _, name := range config.Names {
@@ -37,12 +38,12 @@ func bind(r component.IComponentRegistry) {
 				if err != nil {
 					return nil, err
 				}
-				
+
 				client, err := elastic.GetClient(c, cn)
 				if err != nil {
 					return nil, err
 				}
-				return logging.NewLoggingService(client, config)
+				return logging.NewLoggingService(client, config, logger.GetSession(c.GetServerName(), logger.CreateSession()))
 			})
 			if err != nil {
 				return err

@@ -39,7 +39,6 @@ func (u *SaveHandler) Handle(name string, engine string, service string, ctx *co
 		ctx.Response.SetStatus(204)
 		return nil
 	}
-	ctx.Log.Debug(body)
 	logger, err := u.container.GetGlobalObject(elastic.ConfNode, u.name)
 	if err != nil {
 		return err

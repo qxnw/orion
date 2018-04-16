@@ -202,138 +202,138 @@
 		},
 		{
 			"ImportPath": "github.com/qxnw/hydra/component",
-			"Comment": "v0.9.0-255-g8688fe3",
-			"Rev": "8688fe3966fc778ca1ecfb0521c19e1374e34bf6"
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
 		},
 		{
 			"ImportPath": "github.com/qxnw/hydra/conf",
-			"Comment": "v0.9.0-255-g8688fe3",
-			"Rev": "8688fe3966fc778ca1ecfb0521c19e1374e34bf6"
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
 		},
 		{
 			"ImportPath": "github.com/qxnw/hydra/context",
-			"Comment": "v0.9.0-255-g8688fe3",
-			"Rev": "8688fe3966fc778ca1ecfb0521c19e1374e34bf6"
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
 		},
 		{
 			"ImportPath": "github.com/qxnw/hydra/engines",
-			"Comment": "v0.9.0-255-g8688fe3",
-			"Rev": "8688fe3966fc778ca1ecfb0521c19e1374e34bf6"
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
 		},
 		{
 			"ImportPath": "github.com/qxnw/hydra/hydra",
-			"Comment": "v0.9.0-255-g8688fe3",
-			"Rev": "8688fe3966fc778ca1ecfb0521c19e1374e34bf6"
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
 		},
 		{
 			"ImportPath": "github.com/qxnw/hydra/hydra/impt",
-			"Comment": "v0.9.0-255-g8688fe3",
-			"Rev": "8688fe3966fc778ca1ecfb0521c19e1374e34bf6"
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
 		},
 		{
 			"ImportPath": "github.com/qxnw/hydra/hydra/rpclog",
-			"Comment": "v0.9.0-255-g8688fe3",
-			"Rev": "8688fe3966fc778ca1ecfb0521c19e1374e34bf6"
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
 		},
 		{
 			"ImportPath": "github.com/qxnw/hydra/hydra/rqs",
-			"Comment": "v0.9.0-255-g8688fe3",
-			"Rev": "8688fe3966fc778ca1ecfb0521c19e1374e34bf6"
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
 		},
 		{
 			"ImportPath": "github.com/qxnw/hydra/registry",
-			"Comment": "v0.9.0-255-g8688fe3",
-			"Rev": "8688fe3966fc778ca1ecfb0521c19e1374e34bf6"
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
 		},
 		{
 			"ImportPath": "github.com/qxnw/hydra/registry/local",
-			"Comment": "v0.9.0-255-g8688fe3",
-			"Rev": "8688fe3966fc778ca1ecfb0521c19e1374e34bf6"
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
 		},
 		{
 			"ImportPath": "github.com/qxnw/hydra/registry/watcher",
-			"Comment": "v0.9.0-255-g8688fe3",
-			"Rev": "8688fe3966fc778ca1ecfb0521c19e1374e34bf6"
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
 		},
 		{
 			"ImportPath": "github.com/qxnw/hydra/registry/zookeeper",
-			"Comment": "v0.9.0-255-g8688fe3",
-			"Rev": "8688fe3966fc778ca1ecfb0521c19e1374e34bf6"
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
 		},
 		{
 			"ImportPath": "github.com/qxnw/hydra/rpc",
-			"Comment": "v0.9.0-255-g8688fe3",
-			"Rev": "8688fe3966fc778ca1ecfb0521c19e1374e34bf6"
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
 		},
 		{
 			"ImportPath": "github.com/qxnw/hydra/rpc/balancer",
-			"Comment": "v0.9.0-255-g8688fe3",
-			"Rev": "8688fe3966fc778ca1ecfb0521c19e1374e34bf6"
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
 		},
 		{
 			"ImportPath": "github.com/qxnw/hydra/servers",
-			"Comment": "v0.9.0-255-g8688fe3",
-			"Rev": "8688fe3966fc778ca1ecfb0521c19e1374e34bf6"
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
 		},
 		{
 			"ImportPath": "github.com/qxnw/hydra/servers/cron",
-			"Comment": "v0.9.0-255-g8688fe3",
-			"Rev": "8688fe3966fc778ca1ecfb0521c19e1374e34bf6"
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
 		},
 		{
 			"ImportPath": "github.com/qxnw/hydra/servers/http",
-			"Comment": "v0.9.0-255-g8688fe3",
-			"Rev": "8688fe3966fc778ca1ecfb0521c19e1374e34bf6"
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
 		},
 		{
 			"ImportPath": "github.com/qxnw/hydra/servers/http/middleware",
-			"Comment": "v0.9.0-255-g8688fe3",
-			"Rev": "8688fe3966fc778ca1ecfb0521c19e1374e34bf6"
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
 		},
 		{
 			"ImportPath": "github.com/qxnw/hydra/servers/mqc",
-			"Comment": "v0.9.0-255-g8688fe3",
-			"Rev": "8688fe3966fc778ca1ecfb0521c19e1374e34bf6"
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
 		},
 		{
 			"ImportPath": "github.com/qxnw/hydra/servers/pkg/circuit",
-			"Comment": "v0.9.0-255-g8688fe3",
-			"Rev": "8688fe3966fc778ca1ecfb0521c19e1374e34bf6"
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
 		},
 		{
 			"ImportPath": "github.com/qxnw/hydra/servers/pkg/dispatcher",
-			"Comment": "v0.9.0-255-g8688fe3",
-			"Rev": "8688fe3966fc778ca1ecfb0521c19e1374e34bf6"
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
 		},
 		{
 			"ImportPath": "github.com/qxnw/hydra/servers/pkg/dispatcher/render",
-			"Comment": "v0.9.0-255-g8688fe3",
-			"Rev": "8688fe3966fc778ca1ecfb0521c19e1374e34bf6"
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
 		},
 		{
 			"ImportPath": "github.com/qxnw/hydra/servers/pkg/json",
-			"Comment": "v0.9.0-255-g8688fe3",
-			"Rev": "8688fe3966fc778ca1ecfb0521c19e1374e34bf6"
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
 		},
 		{
 			"ImportPath": "github.com/qxnw/hydra/servers/pkg/middleware",
-			"Comment": "v0.9.0-255-g8688fe3",
-			"Rev": "8688fe3966fc778ca1ecfb0521c19e1374e34bf6"
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
 		},
 		{
 			"ImportPath": "github.com/qxnw/hydra/servers/pkg/timer",
-			"Comment": "v0.9.0-255-g8688fe3",
-			"Rev": "8688fe3966fc778ca1ecfb0521c19e1374e34bf6"
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
 		},
 		{
 			"ImportPath": "github.com/qxnw/hydra/servers/rpc",
-			"Comment": "v0.9.0-255-g8688fe3",
-			"Rev": "8688fe3966fc778ca1ecfb0521c19e1374e34bf6"
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
 		},
 		{
 			"ImportPath": "github.com/qxnw/hydra/servers/rpc/pb",
-			"Comment": "v0.9.0-255-g8688fe3",
-			"Rev": "8688fe3966fc778ca1ecfb0521c19e1374e34bf6"
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
 		},
 		{
 			"ImportPath": "github.com/qxnw/lib4go/cache",
@@ -778,6 +778,671 @@
 		{
 			"ImportPath": "gopkg.in/yaml.v2",
 			"Rev": "d670f9405373e636a5a2765eea47fac0c9bc91a4"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/asaskevich/govalidator",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/cache",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/concurrent/cmap",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/db",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/influxdb",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/queue",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/jsons",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/logger",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/rpc",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/types",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/utility",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/registry",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/db/tpl",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/influxdb/models",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/transform",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/file",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/net",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/zkfy/log",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/security/md5",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/influxdb/escape",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/golang.org/x/net/context",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/google.golang.org/grpc",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/metrics",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/google.golang.org/grpc/codes",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/google.golang.org/grpc/grpclog",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/google.golang.org/grpc/naming",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/golang/protobuf/proto",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/golang.org/x/net/http2",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/golang.org/x/net/trace",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/google.golang.org/grpc/balancer",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/google.golang.org/grpc/balancer/roundrobin",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/google.golang.org/grpc/connectivity",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/google.golang.org/grpc/credentials",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/google.golang.org/grpc/encoding",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/google.golang.org/grpc/encoding/proto",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/google.golang.org/grpc/grpclb/grpc_lb_v1/messages",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/google.golang.org/grpc/internal",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/google.golang.org/grpc/keepalive",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/google.golang.org/grpc/metadata",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/google.golang.org/grpc/peer",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/google.golang.org/grpc/resolver",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/google.golang.org/grpc/resolver/dns",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/google.golang.org/grpc/resolver/passthrough",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/google.golang.org/grpc/stats",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/google.golang.org/grpc/status",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/google.golang.org/grpc/tap",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/google.golang.org/grpc/transport",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/zkfy/cron",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/zkfy/go-metrics",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/golang.org/x/net/http2/hpack",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/golang.org/x/net/idna",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/golang.org/x/net/lex/httplex",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/golang.org/x/net/internal/timeseries",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/google.golang.org/grpc/balancer/base",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/golang/protobuf/ptypes",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/google.golang.org/genproto/googleapis/rpc/status",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/golang.org/x/text/secure/bidirule",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/golang.org/x/text/unicode/bidi",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/golang.org/x/text/unicode/norm",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/golang/protobuf/ptypes/any",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/golang/protobuf/ptypes/duration",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/golang/protobuf/ptypes/timestamp",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/golang.org/x/text/transform",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/pkg/profile",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/urfave/cli",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/cache/memcache",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/cache/redis",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/mq/redis",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/mq/stomp",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/mq/xmq",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/queue/redis",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/zkfy/go-oci8",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/golang/snappy",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/osext",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/security/crc32",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/sysinfo/cpu",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/sysinfo/disk",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/sysinfo/memory",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/zkfy/archiver",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/fsnotify/fsnotify",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/zk",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/go-redis/redis",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/redis",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/gin-gonic/gin",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/mq",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/bradfitz/gomemcache/memcache",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/zkfy/stompngo",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/encoding",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/shirou/gopsutil/cpu",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/shirou/gopsutil/disk",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/shirou/gopsutil/mem",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/dsnet/compress/bzip2",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/nwaples/rardecode",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/pierrec/lz4",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/ulikunitz/xz",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/golang.org/x/sys/unix",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/samuel/go-zookeeper/zk",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/go-redis/redis/internal",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/go-redis/redis/internal/consistenthash",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/go-redis/redis/internal/hashtag",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/go-redis/redis/internal/pool",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/go-redis/redis/internal/proto",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/gin-gonic/gin/json",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/qxnw/lib4go/security/jwt",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/gin-contrib/sse",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/gin-gonic/gin/binding",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/gin-gonic/gin/render",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/mattn/go-isatty",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/golang.org/x/text/encoding/simplifiedchinese",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/StackExchange/wmi",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/shirou/gopsutil/internal/common",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/golang.org/x/sys/windows",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/dsnet/compress/bzip2/internal/sais",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/dsnet/compress/internal",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/dsnet/compress/internal/errors",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/dsnet/compress/internal/prefix",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/pierrec/xxHash/xxHash32",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/ulikunitz/xz/internal/xlog",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/ulikunitz/xz/lzma",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/json-iterator/go",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/ugorji/go/codec",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/gopkg.in/yaml.v2",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/zkfy/jwt-go",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/gopkg.in/go-playground/validator.v8",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/golang.org/x/text/encoding",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/golang.org/x/text/encoding/internal",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/golang.org/x/text/encoding/internal/identifier",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/go-ole/go-ole",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/go-ole/go-ole/oleutil",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/dsnet/compress",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/ulikunitz/xz/internal/hash",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/modern-go/concurrent",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
+		},
+		{
+			"ImportPath": "github.com/qxnw/hydra/vendor/github.com/modern-go/reflect2",
+			"Comment": "v0.9.0-257-g15350fd",
+			"Rev": "15350fd29a08d512ad8d85f2ef565e793a90fd90"
 		}
 	]
 }

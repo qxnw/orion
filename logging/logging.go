@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"sync"
+	"time"
 
 	"github.com/qxnw/lib4go/logger"
 	"github.com/qxnw/orion/elastic"
@@ -22,11 +23,11 @@ type LoggingService struct {
 }
 
 //NewLoggingService 创建日志组件
-func NewLoggingService(client *es.Client, c *elastic.Conf) (r *LoggingService, err error) {
+func NewLoggingService(client *es.Client, c *elastic.Conf, l *logger.Logger) (r *LoggingService, err error) {
 	r = &LoggingService{
 		client:     client,
 		config:     c,
-		logger:     logger.GetSession("orion.logging", logger.CreateSession()),
+		logger:     l,
 		bufferChan: make(chan []byte, 100000),
 		buffer:     make([][]byte, 0, 1000),
 		closeCh:    make(chan struct{}),
@@ -60,7 +61,13 @@ func (l *LoggingService) loopWrite() {
 			}
 			l.lock.Lock()
 			if v[0] == '[' {
-				l.buffer = append(l.buffer, bytes.Split(v[1:len(v)-1], []byte(","))...)
+				sections := bytes.Split(v[1:len(v)-1], []byte("},"))
+				for _, s := range sections {
+					if string(s[len(s)-1]) != "}" {
+						s = append(s, []byte("}")...)
+					}
+					l.buffer = append(l.buffer, s)
+				}
 			} else {
 				l.buffer = append(l.buffer, v)
 			}
@@ -91,11 +98,14 @@ func (l *LoggingService) loopWrite() {
 	}
 }
 func (l *LoggingService) Write(p [][]byte) (n int, err error) {
-	if err := elastic.BenchAddData(l.client, l.config.TypeName, l.config.Index, l.config.WriteTimeout, p); err != nil {
-		l.logger.Error(err)
+	l.logger.Debugf(" --> logging request")
+	start := time.Now()
+	n, err = elastic.BenchAddData(l.client, l.config.TypeName, l.config.Index, l.config.WriteTimeout, p)
+	if err != nil {
+		l.logger.Errorf("-> logging response %d条 %v %v", len(p), time.Since(start), err)
 		return 0, err
 	}
-	l.logger.Debugf("-> write log ", len(p))
+	l.logger.Debugf(" --> logging response %d条 %v %v", len(p), n, time.Since(start))
 	return len(p) - 1, nil
 }
 
