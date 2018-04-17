@@ -3,8 +3,8 @@ package log
 import (
 	"github.com/qxnw/hydra/component"
 	"github.com/qxnw/hydra/context"
-	"github.com/qxnw/orion/elastic"
-	"github.com/qxnw/orion/logging"
+	"github.com/qxnw/orion/modules/elastic"
+	"github.com/qxnw/orion/modules/logging"
 )
 
 type SaveHandler struct {

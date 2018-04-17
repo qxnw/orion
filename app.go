@@ -7,8 +7,8 @@ import (
 	"github.com/qxnw/hydra/component"
 	"github.com/qxnw/hydra/conf"
 	"github.com/qxnw/lib4go/logger"
-	"github.com/qxnw/orion/elastic"
-	"github.com/qxnw/orion/logging"
+	"github.com/qxnw/orion/modules/elastic"
+	"github.com/qxnw/orion/modules/logging"
 	"github.com/qxnw/orion/services/log"
 )
 
