@@ -67,9 +67,6 @@ func GetClient(s component.IContainer, chConf conf.IConf) (c *elastic.Client, er
 
 //BenchAddData 添加数据到elastic
 func BenchAddData(client *elastic.Client, typeName string, index string, timeout int, datas [][]byte) (n int, err error) {
-	if timeout == 0 {
-		timeout = 30
-	}
 	bulkRequest := client.Bulk().Index(index).Type(typeName)
 	for _, item := range datas {
 
@@ -104,10 +101,13 @@ func BenchAddData(client *elastic.Client, typeName string, index string, timeout
 
 //AddData 添加数据到elastic
 func AddData(client *elastic.Client, logID string, typeName string, index string, timeout int, data string) (err error) {
-	if timeout == 0 {
-		timeout = 30
+	rctx := context.TODO()
+	var cannel context.CancelFunc
+	if timeout > 0 {
+		rctx, cannel = context.WithTimeout(context.Background(), time.Second*time.Duration(timeout))
+		defer cannel()
 	}
-	ctx, cannel := context.WithTimeout(context.Background(), time.Second*time.Duration(timeout))
+	ctx, cannel := context.WithTimeout(rctx, time.Second*time.Duration(timeout))
 	defer cannel()
 	_, err = client.Index().
 		Index(index).
