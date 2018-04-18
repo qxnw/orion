@@ -20,7 +20,7 @@ const ConfNode = "elastic"
 type Conf struct {
 	Address      string `json:"address" valid:"requrl,required"`
 	Index        string `json:"index" valid:"ascii,required"`
-	TypeName     string `json:"type" valid:"ascii,required"`
+	TypeName     string
 	WriteTimeout int    `json:"write-timeout" valid:"required"`
 	Cron         string `json:"cron" valid:"ascii,required"`
 }
@@ -84,8 +84,13 @@ func BenchAddData(client *elastic.Client, typeName string, index string, timeout
 		err = fmt.Errorf("添加数据与生成的bulk数据条数不匹配，数据 %d 条,bulk %d 条", len(datas), bulkRequest.NumberOfActions())
 		return 0, err
 	}
-
-	bulkResponse, err := bulkRequest.Do(context.TODO())
+	ctx := context.TODO()
+	var cannel context.CancelFunc
+	if timeout > 0 {
+		ctx, cannel = context.WithTimeout(context.Background(), time.Second*time.Duration(timeout))
+		defer cannel()
+	}
+	bulkResponse, err := bulkRequest.Do(ctx)
 	if err != nil {
 		err = fmt.Errorf("添加bulk数据发生错误：%v", err)
 		return 0, err

@@ -20,7 +20,6 @@ type option struct {
 	ServerTypes        []string `valid:"ascii,required"`
 	ClusterName        string   `json:"--cluster" valid:"ascii,required"`
 	IsDebug            bool
-	AutoCreateConf     bool
 	Trace              string
 	remoteLogger       bool
 	RemoteLogger       bool
@@ -48,13 +47,6 @@ func WithPlatName(platName string) Option {
 func WithSystemName(systemName string) Option {
 	return func(o *option) {
 		o.SystemName = systemName
-	}
-}
-
-//WithAutoCreateConf 自动创建配置节点
-func WithAutoCreateConf() Option {
-	return func(o *option) {
-		o.AutoCreateConf = true
 	}
 }
 

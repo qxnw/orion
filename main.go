@@ -5,10 +5,9 @@ import (
 )
 
 func main() {
-	app := hydra.NewApp(hydra.WithPlatName("orion"),
+	app := hydra.NewApp(hydra.WithPlatName("orion-2"),
 		hydra.WithSystemName("logging"),
 		hydra.WithServerTypes("api-rpc"),
-		hydra.WithAutoCreateConf(),
 		hydra.WithDebug())
 	bind(app)
 	app.Start()
