@@ -32,7 +32,7 @@ func bindConf(app *hydra.MicroApp) {
 	}`)
 }
 
-//bind 绑定应用程序的全局变量, 根据配置的日志数据库,创建日志保存对象,注册日志服务
+//bind 初始化程序全局配置，绑定全局变量, 根据配置注册日志服务
 func bind(r *hydra.MicroApp) {
 	bindConf(r)
 	r.Initializing(func(c component.IContainer) error {
